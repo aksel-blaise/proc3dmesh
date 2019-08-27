@@ -6,4 +6,4 @@ This study leverages a batch protocol developed in Geomagic Control X as a means
 
 ![](./figures/FigBatch.jpg)
 
-Results of comparison of shapes for  ![HDPRO-H1-ReGen1](./files/HDPRO-H1-ReGen1.pdf)
+Results for comparison of shapes using ![HDPRO-H1-ReGen1](./files/HDPRO-H1-ReGen1.pdf) demonstrates a general overview of a preliminary run of the comparison of laser scan data for a single scan.
