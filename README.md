@@ -6,7 +6,7 @@ The study leverages a batch protocol developed using Geomagic Design X and Contr
 
 ![](./figures/FigBatch.jpg)
 
-The figure below illustrates a preliminary comparison of laser scan data collected and remeshed at different resolutions. These preliminary results indicate that 3D scan data collected and processed using identical protocols (best case scenario) differ most in high-curvature areas. The high-curvature areas of projetile points (edges) are representative of some of the most likely locations for landmarks and semilandmarks, given that they describe the general shape of the point in plan view. In addition to those scans processed in the scanner-specific software, additional processing protocols were enlisted using the Rvcg package in R.
+The figure below illustrates a preliminary comparison of laser scan data collected and remeshed at different resolutions. These preliminary results indicate that 3D scan data collected and processed using identical protocols (best case scenario) differ most in high-curvature areas. The high-curvature areas of projetile points (edges) are representative of some of the most likely locations for landmarks and semilandmarks, given that they describe the general shape of the point in plan view. In addition to those scans processed in the scanner-specific software, additional processing protocols were enlisted using the Rvcg package.
 
 ![](./figures/R2.png)
 
