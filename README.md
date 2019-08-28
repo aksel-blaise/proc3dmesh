@@ -2,7 +2,7 @@
 
 This systematic study demonstrates the variable impacts that processing decisions have upon 3D meshes.
 
-The study leverages a batch protocol developed using Geomagic Design X and Control X to systematically evaluate processed meshes, with the goal of demonstrating the variation in mesh morphology introduced during the processing workflow.
+The study leverages a batch protocol developed using Geomagic Design X and Control X to systematically evaluate processed meshes, with the goal of demonstrating the variation in mesh morphology introduced during the processing workflow for a microCT and laser scanned dataset.
 
 ![](./figures/FigBatch.jpg)
 
