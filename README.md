@@ -2,13 +2,13 @@
 
 This systematic study demonstrates the variable impacts that processing decisions have upon 3D meshes.
 
-The study leverages a batch protocol developed using Geomagic Control X as a means of systematically evaluating processed meshes, with the goal of demonstrating the variation in mesh morphology that is introduced during the processing workflow.
+The study leverages a batch protocol developed using Geomagic Design X and Control X to systematically evaluate processed meshes, with the goal of demonstrating the variation in mesh morphology introduced during the processing workflow.
 
 ![](./figures/FigBatch.jpg)
 
-Results for comparison of shapes using ![HDPRO-H1-ReGen1](./files/HDPRO-H1-ReGen1.pdf) demonstrates a general overview of a preliminary run of the comparison of laser scan data for a single scan. In addition to those scans processed in the scanner-specific software, further processing protocols were explored using the Rvcg package in R.
+Results for the comparison of shapes using ![HDPRO-H1-ReGen1](./files/HDPRO-H1-ReGen1.pdf) demonstrates a general overview for the preliminary comparison of laser scan data. In addition to those scans processed in the scanner-specific software, additional processing protocols were enlisted using the Rvcg package in R.
 
-MicroCT scan data were collected using a Bruker SkyScan, and laser scan data were collected with a NextEngineHD. All raw and processed data for this project are open access, and will be made available for download at the conclusion of this project.
+MicroCT scan data were collected with a Bruker SkyScan, and laser scan data were collected using a NextEngineHD. All raw and processed data are open access, and will be made available for download at the conclusion of the analysis.
 
 ### Acknowledgments
 
