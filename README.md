@@ -10,7 +10,7 @@ The figure below illustrates a preliminary comparison of laser scan data collect
 
 ![](./figures/R2.jpg)
 
-MicroCT scan data were collected with a Bruker SkyScan, and laser scan data were collected using a NextEngineHD. All raw and processed data are open access, and will be made available for download at the conclusion of the analysis.
+MicroCT scan data were collected with a Bruker SkyScan, and laser scan data were collected using a NextEngineHD. All raw and processed data are open access, and will be made available for download at the conclusion of the analysis. 
 
 ### Acknowledgments
 
