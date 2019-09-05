@@ -4,7 +4,7 @@ Substantive advancements have been made toward automating the application of lan
 
 ![](./figures/ho54ct.png)
 
-The study leverages a batch protocol developed using Geomagic Design X and Control X to systematically evaluate processed meshes, with the goal of demonstrating the variation in mesh morphology introduced during the processing workflow for a microCT and laser scanned dataset. The protocol includes a 3D compare, a series of 2D comparisons of cross-sections, and comparison points (not landmarks) placed at mathematically-defined locations (i.e., horizontal/vertical tangents, points of highest curvature, etc.).
+The study leverages a batch protocol developed using Geomagic Design X and Control X to systematically evaluate processed meshes, with the goal of demonstrating the variation in mesh morphology introduced during the processing workflow for a microCT and laser scanned dataset. The protocol includes a comparison of the 3D meshes, a series of 2D comparisons of cross-sections, and deviations for comparison points (not landmarks) placed at mathematically-defined locations (i.e., horizontal/vertical tangents, points of highest curvature, etc.).
 
 ![](./figures/FigBatch.jpg)
 
