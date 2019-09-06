@@ -21,4 +21,4 @@ processmesh <- function(x) {
 mystls <- list.files("stl",pattern=".stl",full.names=T)
 runall <- lapply(mystls,processmesh)
 
-#end of script
+# end of script
