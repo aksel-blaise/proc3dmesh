@@ -1,5 +1,3 @@
-# Robert Z. Selden, Jr. - HRC/SFASU
-# 06082019/iteration1 - preliminary/not final
 # batch convert STL to PLY (ASCII)
 # all meshes preprocessed in ScanStudio (trim, align, merge, polish, remesh)
 require(devtools)
@@ -20,5 +18,4 @@ processmesh <- function(x) {
 # Batch loop assuming all stl files are stored in a folder called stl
 mystls <- list.files("stl",pattern=".stl",full.names=T)
 runall <- lapply(mystls,processmesh)
-
 # end of script
