@@ -16,4 +16,4 @@ MicroCT scan data were collected using a Bruker SkyScan, and laser scan data wer
 
 ### Acknowledgments
 
-Thanks to the National Forests and Grasslands in Texas for the requisite access, permissions, and funding for data collection (USFS grant 15-PA-11081300-033 to RZS), to Morgane Dubied in the MorphOptics Laboratory at CNRS for guidance with digit3DLand, to Adam Summers in the Friday Harbor Laboratory at the University of Washington for access to the microCT scanner, and to Jonathan M. Huie at the University of Washington for his assistance with microCT data collection.
+Thanks to the National Forests and Grasslands in Texas for the requisite access, permissions, and funding for data collection (USFS grant 15-PA-11081300-033 to RZS), to Adam Summers in the Friday Harbor Laboratory at the University of Washington for access to the microCT scanner, and to Jonathan M. Huie at the University of Washington for his assistance with microCT data collection.
