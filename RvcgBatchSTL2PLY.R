@@ -1,5 +1,6 @@
-# batch convert STL to PLY (ASCII)
-# all meshes preprocessed in ScanStudio (trim, align, merge, polish, remesh)
+#batch convert STL to PLY (ASCII)
+#all NextEngine meshes preprocessed in ScanStudio (trim, align, merge, polish, remesh)
+#all SkyScan meshes preprocessed in SlicerMorph (segmentation)
 require(devtools)
 install_github("zarquon42b/Rvcg", local=FALSE)
 library(Rvcg)
