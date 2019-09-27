@@ -8,7 +8,9 @@ The study leverages a batch protocol developed using Geomagic Design X and Contr
 
 ![](./figures/FigBatch.jpg)
 
-A preliminary run of the protocol for laser scan data collected and remeshed at different resolutions was successful at identifying areas of deviation between the meshes. Those results, while preliminary, indicate that 3D scan data collected and processed using identical protocols (best case scenario) differ most in high-curvature areas. The high-curvature areas of projectile points (lateral edges) represent some of the most likely locations for landmark and semilandmark placement, given their contribution to the description of the general shape of the point in plan view. Additional processing protocols were enlisted using the Rvcg package following export from the data collection software, and are followed by an analysis that enlists a template-based approach to geometric morphometrics.
+A preliminary run of the protocol for laser scan data collected and remeshed at different resolutions was successful at identifying areas of deviation between the meshes. Those results, while preliminary, indicate that 3D scan data collected and processed using identical protocols (best case scenario) differ most in high-curvature areas. The high-curvature areas of projectile points (lateral edges) represent some of the most likely locations for landmark and semilandmark placement, given their contribution to the description of the general shape of the point in plan view. Additional processing protocols were enlisted using the Rvcg package following export from the data collection software, and are followed by an analysis that enlists a template-based approach to geometric morphometrics. A basic overview of the mesh processing and landmarking workflow is appended below, and the code used to produce that flow is included in the repository.
+
+![](./figures/resolution-flow.png)
 
 ### Data Accessibility
 
