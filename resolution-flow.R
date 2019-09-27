@@ -1,3 +1,4 @@
+devtools::install_github("rich-iannone/DiagrammeR")
 library(DiagrammeR)
 
 #diagram of flowchart for mesh resolution study
