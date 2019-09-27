@@ -25,7 +25,7 @@ processmesh <- function(x) {
   meshInfo(remesh)
   #export as OFF to data3d file
   vcgOffWrite(mesh, filename = paste0("data3d/",meshname))
-  #export as PLY to rePLY folder for use with landmark geometric morphometrics
+  #export as PLY to rePLY folder
   vcgPlyWrite(remesh, filename = "rePLY/", meshname, ascii = TRUE)
   #decimate mesh
   decimated<-vcgQEdecim(mesh, percent = 0.25)
