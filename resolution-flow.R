@@ -16,9 +16,10 @@ end
 
 subgraph analysis
 E -->|exportOFF| F(auto3dgm)
-F -->|alOFF2PLY| G(digit3dland)
-F --> |exportLM| H(geomorph)
-G --> |exportLM| H
+F -->|alignOFF| G(Rvcg)
+G -->|exportPLY| H(digit3dland)
+F --> |exportLM| I(geomorph)
+H --> |exportLM| I
 end
 "
 )
