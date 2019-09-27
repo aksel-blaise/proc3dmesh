@@ -1,0 +1,48 @@
+---
+title: "Diagram of workflow used in analysis of mesh morphology"
+author: "Robert Z. Selden, Jr."
+date: "September 27, 2019"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Mesh morphology
+
+Workflow used by the Heritage Research Center at Stephen F. Austin State University to generate and process 3D scan and landmark data used in the analysis of mesh morphology. 
+
+```{r load package, echo=TRUE}
+devtools::install_github("rich-iannone/DiagrammeR")
+library(DiagrammeR)
+```
+
+## Diagram
+
+You can also embed plots, for example:
+
+```{r generate flow, echo=TRUE}
+#diagram of flowchart for mesh resolution study
+mermaid("graph LR
+
+subgraph data collection
+A((microCT)) -->|preprocess| C(Rvcg)
+B((laser)) --> |preprocess| C(Rvcg)
+end
+
+subgraph processing
+C --> D[u-remesh]
+D --> E[decimation]
+end
+
+subgraph analysis
+E -->|exportOFF| F(auto3dgm)
+F -->|alOFF2PLY| G(digit3dland)
+F --> |exportLM| H(geomorph)
+G --> |exportLM| H
+end
+"
+)
+#end of script
+```
