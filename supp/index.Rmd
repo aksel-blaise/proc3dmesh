@@ -18,8 +18,6 @@ Three dimensional scanning continues to permeate modern research in archaeology,
 
 This study systematically evaluates 3D meshes collected with a NextEngine scanner, and processed (remeshed) at different resolutions, with the goal of demonstrating where variation occurs in the mesh morphology. The protocol includes a comparison of 3D meshes, a series of 2D comparisons of cross-sections, and deviations for comparison points placed at mathematically-defined locations (i.e., horizontal/vertical tangents, points of highest curvature, etc.).
 
-![](./images/FigBatch.jpg)
-
 The analysis identified those areas where the meshes differ. Those results indicate that 3D scan data collected and processed using identical protocols (best case scenario) differ most in high-curvature areas. The high-curvature areas of projectile points (lateral edges) are among the most likely locations for landmark and semilandmark placement, given their contribution to the description of the general shape of the point in plan view. 
 
 ### Acknowledgments
